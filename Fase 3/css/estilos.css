@@ -1,0 +1,25 @@
+header{
+    background-color: aqua;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+section{
+    background-color: bisque;
+    grid-column:1/4;
+}
+
+aside {
+    background-color: blue;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
